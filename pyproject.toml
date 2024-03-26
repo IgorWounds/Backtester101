@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "algotrading101-backtester"
+version = "0.0.1"
+description = "AlgoTrading101 Backtester."
+license = "MIT"
+authors = ["Igor Radovanovic <igor.radovanovic@algotrading101.com>"]
+packages = []
+readme = "README.md"
+homepage = "https://algotrading101.com"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+openbb = ">=4.1.4"
+poetry = "^1.5.1"
+matplotlib = "^3.8.3"
+
+[tool.poetry.dev-dependencies]
+ruff = "^0.1.5"
+pylint = "^3.0.2"
+mypy = "^1.6.1"
+pydocstyle = "^6.3.0"
+black = "^24.1.0"
+bandit = "^1.7.5"
+codespell = "^2.2.5"
+pytest = "^7.4.3"
+pytest-cov = "^4.1.0"
+types-toml = "^0.10.8.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
